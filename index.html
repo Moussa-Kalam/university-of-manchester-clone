@@ -8,7 +8,7 @@
   </head>
   <body>
     <header
-      class="flex items-center justify-between pl-2 w-full lg:justify-around h-[97px] bg-white lg:h-[122px] lg:bg-blue-100"
+      class="flex items-center justify-between pl-2 w-full lg:justify-around h-[97px] bg-white lg:h-[122px] lg:bg-gray-50"
     >
       <img
         src="./img/logo-university-of-manchester.png"
@@ -27,17 +27,30 @@
           class="lg:hidden w-[25px] h-[20px]"
         />
       </div>
-      <section class="hidden lg:flex lg:gap-x-[43px]">
-        <a class="home" href="/">Home</a>
-        <a href="">Study</a>
-        <a href="">Research</a>
-        <a href="">Collaborate</a>
-        <a href="">Discover</a>
-        <a href="">Connect</a>
+      <section class="hidden lg:flex lg:gap-x-[43px] text-[24px]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-10 h-10 text-[#333]"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+          />
+        </svg>
+        <a href="#" class="text-[#333] font-light">Study</a>
+        <a href="#" class="text-[#333] font-light">Research</a>
+        <a href="#" class="text-[#333] font-light">Collaborate</a>
+        <a href="#" class="text-[#333] font-light">Discover</a>
+        <a href="#" class="text-[#333] font-light">Connect</a>
       </section>
       <section>
         <button
-          class="hidden lg:flex lg:items-center lg:gap-x-[10px] lg:border lg:border-black lg:py-[13px] lg:px-[10px] lg:rounded-lg"
+          class="hidden lg:flex lg:items-center lg:gap-x-[10px] lg:border lg:border-black lg:py-[10px] lg:px-[10px] lg:rounded-lg text-[22px] text-[#333] border-[#333] font-light"
         >
           <img
             src="./img/icon-search-mobile.png"
