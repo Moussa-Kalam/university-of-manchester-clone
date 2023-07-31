@@ -7,6 +7,73 @@
     <title>The University of Manchester clone</title>
   </head>
   <body>
-    <h1 class="text-4xl font-bold underline text-blue-400">Hello World</h1>
+    <header
+      class="flex items-center justify-between pl-2 w-full lg:justify-around h-[97px] bg-white lg:h-[122px] lg:bg-blue-100"
+    >
+      <img
+        src="./img/logo-university-of-manchester.png"
+        alt="logo"
+        class="w-[169px] h-[70px]"
+      />
+      <div class="flex gap-x-4">
+        <img
+          src="./img/icon-search-mobile.png"
+          alt="Search icon"
+          class="h-[20px] w-[20px] lg:hidden"
+        />
+        <img
+          src="./img/icon-menu.gif"
+          alt=""
+          class="lg:hidden w-[25px] h-[20px]"
+        />
+      </div>
+      <section class="hidden lg:flex lg:gap-x-[43px]">
+        <a class="home" href="/">Home</a>
+        <a href="">Study</a>
+        <a href="">Research</a>
+        <a href="">Collaborate</a>
+        <a href="">Discover</a>
+        <a href="">Connect</a>
+      </section>
+      <section>
+        <button
+          class="hidden lg:flex lg:items-center lg:gap-x-[10px] lg:border lg:border-black lg:py-[13px] lg:px-[10px] lg:rounded-lg"
+        >
+          <img
+            src="./img/icon-search-mobile.png"
+            alt="Search icon"
+            class="h-[20px] w-[20px]"
+          />
+          Search
+        </button>
+      </section>
+    </header>
+    <main>
+      <section
+        class="h-[350px] lg:flex lg:justify-around bg-[#ececed] lg:h-[450px] lg:relative"
+      >
+        <img
+          src="./img/Magazine-Nazir-1400x450.jpg"
+          alt="hero image"
+          class="w-[1400-px]"
+        />
+        <p
+          class="text-[24px] px-4 lg:text-[46px] lg:w-[486px] lg:bg-[#ffffffcc] lg:absolute lg:left-[349px] lg:top-[50px] lg:px-[4px] lg:py-[4px]"
+        >
+          University Magazine 2023
+        </p>
+        <p
+          class="px-4 my-4 lg:w-[300px] lg:bg-[#ffffffcc] lg:absolute lg:left-[349px] lg:m-0 lg:top-[196px] lg:py-[4px] lg:px-[10px]"
+        >
+          Our summer issue celebrates the students, staff and alumni embodying
+          our six values as they make their mark on the world.
+        </p>
+        <button
+          class="text-[20px] mx-4 rounded-sm lg:absolute lg:top-[300px] lg:left-[349px] lg:m-0 text-white bg-[#6b2c91] p-[10px]"
+        >
+          Read more
+        </button>
+      </section>
+    </main>
   </body>
 </html>
