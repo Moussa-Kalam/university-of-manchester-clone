@@ -2004,6 +2004,11 @@ video {
   border-color: rgb(51 51 51 / var(--tw-border-opacity));
 }
 
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
 .bg-\[\#1d1d1d\] {
   --tw-bg-opacity: 1;
   background-color: rgb(29 29 29 / var(--tw-bg-opacity));
@@ -2204,6 +2209,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pl-2 {
@@ -2867,6 +2877,22 @@ video {
     margin: 0px;
   }
 
+  .lg\:ml-\[350px\] {
+    margin-left: 350px;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -2895,6 +2921,10 @@ video {
     align-items: center;
   }
 
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
   .lg\:justify-around {
     justify-content: space-around;
   }
@@ -2907,6 +2937,11 @@ video {
   .lg\:gap-x-\[43px\] {
     -moz-column-gap: 43px;
          column-gap: 43px;
+  }
+
+  .lg\:gap-x-8 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 
   .lg\:rounded-lg {
@@ -2961,8 +2996,21 @@ video {
     padding-bottom: 10px;
   }
 
+  .lg\:py-\[8px\] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
   .lg\:text-\[46px\] {
     font-size: 46px;
+  }
+
+  .lg\:text-\[38px\] {
+    font-size: 38px;
+  }
+
+  .lg\:font-light {
+    font-weight: 300;
   }
 }
 
